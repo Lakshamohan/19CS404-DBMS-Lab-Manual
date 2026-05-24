@@ -46,124 +46,152 @@ Used to retrieve records from a table.
 SELECT column1, column2 FROM table_name WHERE condition;
 ```
 **Question 1**
---
--- Paste Question 1 here
+---
+<img width="682" height="417" alt="496968210-be972849-03da-44ea-93bd-9eff61b23211" src="https://github.com/user-attachments/assets/6810c99f-0e34-4a40-9438-7aa48a8fb107" />
+
 
 ```sql
--- Paste your SQL code below for Question 1
+update Employees
+set hire_date='2024-01-24'
+where department_id=50;
 ```
 
 **Output:**
 
-![Output1](output.png)
+<img width="776" height="222" alt="496968712-6424dc05-0812-4023-a983-6767d4417210" src="https://github.com/user-attachments/assets/e27c1c69-4109-488e-80eb-c3f120316f5f" />
+
 
 **Question 2**
 ---
--- Paste Question 2 here
+<img width="581" height="550" alt="496968889-3caa367e-001f-4d36-87b7-4709aff8c93c" src="https://github.com/user-attachments/assets/2d48c402-4333-409c-a94f-4b67f087bd45" />
+
 
 ```sql
--- Paste your SQL code below for Question 2
+update SALES
+set sell_price=sell_price+3
+where product_id IN (select product_id  from PRODUCTS where supplier_id=4);
 ```
 
 **Output:**
+<img width="772" height="282" alt="496969147-241291b1-d3d3-41f7-a43f-da4823300861" src="https://github.com/user-attachments/assets/c72c3abb-97ff-4acf-ac06-ff39bfd9fb0a" />
 
-![Output2](output.png)
 
 **Question 3**
 ---
--- Paste Question 3 here
+<img width="747" height="365" alt="496969347-d72e6d02-b356-4814-8bec-1bd74c2bd638" src="https://github.com/user-attachments/assets/aadec72b-c9dc-4690-9c28-ea40f9b21e96" />
+
 
 ```sql
--- Paste your SQL code below for Question 3
+update products
+set sell_price=CAST(cost_price*1.35 AS INT) 
+where((sell_price-cost_price)/sell_price)*100<30;
 ```
 
 **Output:**
+<img width="707" height="242" alt="496969927-384eafd6-b4d4-40a5-b956-b3af27736c13" src="https://github.com/user-attachments/assets/c0663f50-babd-42ae-9e76-73ad31824cd8" />
 
-![Output3](output.png)
 
 **Question 4**
 ---
--- Paste Question 4 here
+<img width="685" height="381" alt="496970080-ec3b8a4d-cac2-410b-af08-1a02c5776999" src="https://github.com/user-attachments/assets/10ba8f76-7c49-45d0-aab9-fe271b256e7a" />
+
 
 ```sql
--- Paste your SQL code below for Question 4
+update Products 
+set category='Household'
+where product_name like '%Detergent%';
 ```
 
 **Output:**
+<img width="735" height="282" alt="496970348-e8a50a25-0ca0-4df4-9942-a7c4aebbd0d2" src="https://github.com/user-attachments/assets/823b8322-e985-481e-9fc2-f43bd0dec487" />
 
-![Output4](output.png)
 
 **Question 5**
 ---
--- Paste Question 5 here
+<img width="682" height="213" alt="496970644-7708a919-9962-405c-8564-8235917e596d" src="https://github.com/user-attachments/assets/e547c507-1a79-4005-b322-ae2c9d44a98d" />
+
 
 ```sql
--- Paste your SQL code below for Question 5
+update suppliers
+set supplier_name='A1 Suppliers'
+where supplier_id=8;
 ```
 
 **Output:**
+<img width="671" height="227" alt="496970790-b12629cd-46ac-436a-b160-1ce6082a1cb3" src="https://github.com/user-attachments/assets/f8d75406-53ac-4038-aa8d-ea343731af3e" />
 
-![Output5](output.png)
 
 **Question 6**
 ---
--- Paste Question 6 here
+<img width="777" height="732" alt="496971022-ab76622e-3ff0-437a-8820-a2341d4657ca" src="https://github.com/user-attachments/assets/4b2f2976-ea79-4680-9a9c-3a4b78e6e838" />
+
 
 ```sql
--- Paste your SQL code below for Question 6
+delete from customer
+where AGENT_CODE='A003' or  AGENT_CODE='A008';
 ```
 
 **Output:**
 
-![Output6](output.png)
+<img width="480" height="770" alt="496971244-a3ca67fc-9f81-4879-bcf1-75cb12398a85" src="https://github.com/user-attachments/assets/d800cb10-5b06-4f3a-8703-70c9e6623e15" />
+
 
 **Question 7**
 ---
--- Paste Question 7 here
+<img width="768" height="356" alt="496971364-c3c11e6d-677b-4590-9ce8-1eb4833dab09" src="https://github.com/user-attachments/assets/1ff90d79-b9f4-426f-87d1-0dc8ee5dc777" />
+
 
 ```sql
--- Paste your SQL code below for Question 7
+delete from  Doctors
+where (specialization='Pediatrics' or specialization='Cardiology') and last_name  like 'Brown'; 
 ```
 
 **Output:**
 
-![Output7](output.png)
+<img width="762" height="677" alt="496971520-4cab9ef9-edf3-4309-8fbc-28769be6ad1d" src="https://github.com/user-attachments/assets/f571bf7d-9004-4583-ba49-546d26f0accd" />
+
 
 **Question 8**
 ---
--- Paste Question 8 here
+<img width="777" height="491" alt="496971667-1a7c3749-9f57-46e3-8bef-5b3febacbb00" src="https://github.com/user-attachments/assets/b59c3821-3397-4360-ae4b-bdef31ff3bf8" />
+
 
 ```sql
--- Paste your SQL code below for Question 8
+delete from Customer
+where CUST_CITY like "l%";
 ```
 
 **Output:**
+<img width="777" height="761" alt="496971866-f5ff3ccd-00a0-4d9f-b370-c19bf08939bc" src="https://github.com/user-attachments/assets/859ec185-6735-4ecb-8078-2031e90e4877" />
 
-![Output8](output.png)
 
 **Question 9**
 ---
--- Paste Question 9 here
+<img width="772" height="457" alt="496972023-5ac99887-e01b-4300-8860-9b75521f49b1" src="https://github.com/user-attachments/assets/07f5448e-de3a-499d-8ea4-1ba1296d4103" />
+
 
 ```sql
--- Paste your SQL code below for Question 9
+delete from Customer
+where CUST_NAME like "______";
 ```
 
 **Output:**
+<img width="767" height="541" alt="496972183-e171e633-543c-4e61-a394-0ce1472f2d45" src="https://github.com/user-attachments/assets/96a08aa4-414f-402a-8d10-2505c4908753" />
 
-![Output9](output.png)
 
 **Question 10**
 ---
--- Paste Question 10 here
+<img width="773" height="122" alt="496972252-17775a5a-a772-4cd9-9fae-ba9f2ff70db4" src="https://github.com/user-attachments/assets/51e93482-e246-487a-9e94-4586eeff2dce" />
+
 
 ```sql
--- Paste your SQL code below for Question 10
+delete from Doctors
+where Specialization like 'Pediatrics' and first_name like 'Michael';
 ```
 
 **Output:**
+<img width="765" height="291" alt="496972374-7570f9ea-7dfc-4842-9f13-282101eb3ab8" src="https://github.com/user-attachments/assets/732be449-b281-4d42-a23e-edc7ddf01f01" />
 
-![Output10](output.png)
 
 ## RESULT
 Thus, the SQL queries to implement DML commands have been executed successfully.
