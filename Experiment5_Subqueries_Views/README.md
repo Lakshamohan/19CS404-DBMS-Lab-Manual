@@ -235,5 +235,6 @@ WHERE SALARY > 1500;
 ## RESULT
 Thus, the SQL queries to implement subqueries and views have been executed successfully.
 
-<img width="1131" height="76" alt="image" src="https://github.com/user-attachments/assets/178058d9-72dc-48f2-9605-ce074028afcb" />
+<img width="1217" height="76" alt="image" src="https://github.com/user-attachments/assets/f918c578-f62c-4159-9f01-9794b119f417" />
+
 
