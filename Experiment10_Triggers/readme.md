@@ -1,6 +1,6 @@
 # Experiment 10: PL/SQL – Triggers
 # NAME: LAKSHA M
-# REGNO: 212224220050
+# REG NO: 212224220050
 ## AIM
 To write and execute PL/SQL trigger programs for automating actions in response to specific table events like INSERT, UPDATE, or DELETE.
 
