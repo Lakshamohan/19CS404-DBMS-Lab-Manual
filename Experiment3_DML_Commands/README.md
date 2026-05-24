@@ -73,6 +73,7 @@ where product_id IN (select product_id  from PRODUCTS where supplier_id=4);
 ```
 
 **Output:**
+
 <img width="772" height="282" alt="496969147-241291b1-d3d3-41f7-a43f-da4823300861" src="https://github.com/user-attachments/assets/c72c3abb-97ff-4acf-ac06-ff39bfd9fb0a" />
 
 
@@ -88,6 +89,7 @@ where((sell_price-cost_price)/sell_price)*100<30;
 ```
 
 **Output:**
+
 <img width="707" height="242" alt="496969927-384eafd6-b4d4-40a5-b956-b3af27736c13" src="https://github.com/user-attachments/assets/c0663f50-babd-42ae-9e76-73ad31824cd8" />
 
 
@@ -103,6 +105,7 @@ where product_name like '%Detergent%';
 ```
 
 **Output:**
+
 <img width="735" height="282" alt="496970348-e8a50a25-0ca0-4df4-9942-a7c4aebbd0d2" src="https://github.com/user-attachments/assets/823b8322-e985-481e-9fc2-f43bd0dec487" />
 
 
@@ -118,6 +121,7 @@ where supplier_id=8;
 ```
 
 **Output:**
+
 <img width="671" height="227" alt="496970790-b12629cd-46ac-436a-b160-1ce6082a1cb3" src="https://github.com/user-attachments/assets/f8d75406-53ac-4038-aa8d-ea343731af3e" />
 
 
@@ -162,6 +166,7 @@ where CUST_CITY like "l%";
 ```
 
 **Output:**
+
 <img width="777" height="761" alt="496971866-f5ff3ccd-00a0-4d9f-b370-c19bf08939bc" src="https://github.com/user-attachments/assets/859ec185-6735-4ecb-8078-2031e90e4877" />
 
 
@@ -176,6 +181,7 @@ where CUST_NAME like "______";
 ```
 
 **Output:**
+
 <img width="767" height="541" alt="496972183-e171e633-543c-4e61-a394-0ce1472f2d45" src="https://github.com/user-attachments/assets/96a08aa4-414f-402a-8d10-2505c4908753" />
 
 
@@ -190,8 +196,11 @@ where Specialization like 'Pediatrics' and first_name like 'Michael';
 ```
 
 **Output:**
+
 <img width="765" height="291" alt="496972374-7570f9ea-7dfc-4842-9f13-282101eb3ab8" src="https://github.com/user-attachments/assets/732be449-b281-4d42-a23e-edc7ddf01f01" />
 
 
 ## RESULT
 Thus, the SQL queries to implement DML commands have been executed successfully.
+
+<img width="1215" height="77" alt="image" src="https://github.com/user-attachments/assets/ba7de809-93e8-48fa-ad5e-79aa0fe36a71" />
