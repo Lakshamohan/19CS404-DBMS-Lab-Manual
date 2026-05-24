@@ -1,5 +1,6 @@
 # Experiment 3: DML Commands
-
+# NAME: LAKSHA M
+# REG NO: 212224220050
 ## AIM
 To study and implement DML (Data Manipulation Language) commands.
 
