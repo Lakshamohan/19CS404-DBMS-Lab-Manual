@@ -1,6 +1,6 @@
 # Experiment 8: PL/SQL Cursor Programs
 # NAME: LAKSHA M
-# REGNO: 212224220050
+# REG NO: 212224220050
 ## AIM
 To write and execute PL/SQL programs using cursors and exception handling to manage runtime errors effectively and display appropriate messages.
 
