@@ -1,6 +1,6 @@
 # Experiment 6: Joins
 # NAME: LAKSHA M
-# REGNO: 212224220050
+# REG NO: 212224220050
 
 ## AIM
 To study and implement different types of joins.
