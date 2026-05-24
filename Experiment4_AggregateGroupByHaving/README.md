@@ -1,5 +1,6 @@
 # Experiment 4: Aggregate Functions, Group By and Having Clause
-
+# NAME: LAKSHA M
+# REG NO: 212224220050
 ## AIM
 To study and implement aggregate functions, GROUP BY, and HAVING clause with suitable examples.
 
