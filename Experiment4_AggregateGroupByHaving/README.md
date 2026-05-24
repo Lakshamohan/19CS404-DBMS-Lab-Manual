@@ -198,3 +198,5 @@ having SUM(workhour)>20;
 
 ## RESULT
 Thus, the SQL queries to implement aggregate functions, GROUP BY, and HAVING clause have been executed successfully.
+
+<img width="1220" height="102" alt="image" src="https://github.com/user-attachments/assets/14214a43-6b0b-4c3a-b510-5578b0aa6b78" />
