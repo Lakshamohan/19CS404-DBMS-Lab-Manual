@@ -1,5 +1,6 @@
 # ER Diagram Workshop – Submission Template
-
+# NAME: LAKSHA M
+# REG NO: 212224220050
 ## Objective
 To understand and apply ER modeling concepts by creating ER diagrams for real-world applications.
 
