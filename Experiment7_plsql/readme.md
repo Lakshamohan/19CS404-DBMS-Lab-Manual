@@ -1,6 +1,6 @@
 # Experiment 7: PL/SQL – Variables, Control Structures and Loops
 # NAME: LAKSHA M
-# REGNO: 212224220050
+# REG NO: 212224220050
 
 ## AIM
 To write and execute simple PL/SQL programs using variables, loops, and conditional statements.
