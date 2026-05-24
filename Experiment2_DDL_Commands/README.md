@@ -1,5 +1,6 @@
 # Experiment 2: DDL Commands
-
+# NAME: LAKSHA M
+# REG NO: 212224220050
 ## AIM
 To study and implement DDL commands and different types of constraints.
 
